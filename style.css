@@ -1,0 +1,55 @@
+h1, h2, h3, p, li, a, button {
+  color: white !important;
+}
+body {
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* or your existing background */
+  color: white; /* Make all text white */
+}
+
+header, section {
+  background-color: rgba(255, 255, 255, 0.1); /* Slight transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* For the button */
+button, .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.profile-pic {
+  width: 150px;      /* size of the profile */
+  height: 150px;
+  border-radius: 50%; /* makes it a circle */
+  object-fit: cover;  /* keeps image aspect ratio and fills the shape */
+  border: 2px solid white; /* optional: nice border */
+  box-shadow: 0 0 5px rgba(0,0,0,0.3); /* optional: subtle shadow */
+}
+.intro {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #4a90e2, #00c6ff);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
